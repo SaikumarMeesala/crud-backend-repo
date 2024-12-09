@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.crud_rest_api.product_catlog_backend.entity.Product;
 import com.crud_rest_api.product_catlog_backend.repository.ProductRepository;
-@CrossOrigin(origins = "http://localhost:3001")
+@CrossOrigin(origins = "*")
 @RestController
 public class ProductController {
     @Autowired
